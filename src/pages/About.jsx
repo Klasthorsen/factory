@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './About.css';
 
-const teamImage = "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80";
+const teamImage = "/images/vision-team.jpg";
 
 export default function About() {
   return (
