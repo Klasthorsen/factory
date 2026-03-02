@@ -1,0 +1,165 @@
+.about-hero {
+  background-color: var(--color-teal);
+  color: white;
+  padding: 100px 24px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.about-hero p {
+  font-size: 20px;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-intro {
+  padding: 80px 24px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text h2 {
+  margin-bottom: 24px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about-values {
+  background-color: var(--color-gray-100);
+  padding: 80px 24px;
+}
+
+.values-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.values-container h2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.value-card {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.value-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: var(--color-teal);
+}
+
+.value-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-gray-500);
+}
+
+.about-stats {
+  padding: 80px 24px;
+  background-color: var(--color-teal);
+  color: white;
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.stat-label {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.about-cta {
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.about-cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-cta h2 {
+  margin-bottom: 16px;
+}
+
+.about-cta p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  color: var(--color-gray-500);
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .values-grid,
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 48px;
+  }
+  
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .values-grid,
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+}
