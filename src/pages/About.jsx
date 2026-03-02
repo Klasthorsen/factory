@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './About.css';
 
-const teamImage = "https://www.figma.com/api/mcp/asset/70d6bc2f-3d63-4896-a7aa-3fdc1cc0a653";
+const teamImage = "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80";
 
 export default function About() {
   return (
