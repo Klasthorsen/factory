@@ -5,10 +5,10 @@ const imgTfLogo = "https://www.figma.com/api/mcp/asset/cd6f0c4c-df44-4448-b563-9
 const imgTfCircles = "https://www.figma.com/api/mcp/asset/0badb199-4b4f-4e76-a89a-43b9f68a926b";
 const imgFooterLogo = "https://www.figma.com/api/mcp/asset/4e6e701d-495b-4784-86da-7c3720634d05";
 const imgTeknikforetagen = "https://www.figma.com/api/mcp/asset/56cf73d2-7124-4f79-a1ba-df643f30971a";
-const imgSpeaker1 = "https://www.figma.com/api/mcp/asset/1fd0daa5-f7fd-43c9-889b-01c5aef1cf96";
-const imgSpeaker2 = "https://www.figma.com/api/mcp/asset/ca7bebed-6285-491f-8555-b1539957e31b";
-const imgSpeaker3 = "https://www.figma.com/api/mcp/asset/9dc3f55d-6bd6-429d-a7a4-c8720af1d047";
-const imgSpeaker4 = "https://www.figma.com/api/mcp/asset/306b40ef-743e-4a10-afbc-98a9775ba2a8";
+const imgSpeaker1 = "https://www.figma.com/api/mcp/asset/195dc8d7-9ad4-4bb5-bfb7-b175822a37c2";
+const imgSpeaker2 = "https://www.figma.com/api/mcp/asset/6c59cdc3-6b6f-4d54-861b-42543da551f7";
+const imgSpeaker3 = "https://www.figma.com/api/mcp/asset/6996da97-89a9-416d-9b0c-ee3a92f73e1a";
+const imgSpeaker4 = "https://www.figma.com/api/mcp/asset/8061a04f-4b2b-4c3a-8a85-1fcd30685171";
 const imgTestimonial1 = "https://www.figma.com/api/mcp/asset/631b9fad-dbc6-46f4-a9da-16dbe397e0cd";
 const imgTestimonial2 = "https://www.figma.com/api/mcp/asset/8578b69f-225f-42d6-8cfa-f30b3066c4ec";
 
